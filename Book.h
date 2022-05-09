@@ -11,7 +11,7 @@ protected:
     string title;
     string author;
 public:
-    virtual string getDetails() = 0;
+    string getDetails();
     int getIsbn() const;
     Book(int isbn, string title, string author);
 };
